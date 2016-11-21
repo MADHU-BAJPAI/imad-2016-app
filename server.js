@@ -25,16 +25,16 @@ app.listen(8080, function () {
 app.get('/ui/download.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'download.jpg'));
 });
-app.get('/ui/download(1).jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'download(1).jpg'));
+app.get('/ui/download (1).jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'download (1).jpg'));
 });
-app.get('/ui/download(4)', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'download(4).jpg'));
+app.get('/ui/download (4)', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'download (4).jpg'));
 });
-app.get('/ui/download(5).jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'download(5).jpg'));
+app.get('/ui/download (5).jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'download (5).jpg'));
 });
-app.get('/ui/images(2).jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'images(2).jpg'));
+app.get('/ui/images (2).jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'images  (2).jpg'));
 });
 
