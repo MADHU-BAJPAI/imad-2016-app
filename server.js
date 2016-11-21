@@ -9,6 +9,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'web.html'));
 });
 
+app.get('/ui/newcss.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'newcss.css'));
+});
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
