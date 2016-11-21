@@ -12,13 +12,13 @@ height: auto;
  height: 100px;
  width: 1340px;
 }
-.header h1
+.header b /*h1*/
 {
  color: white;
  position: absolute;
      left: 15px;
 }
-.header h3
+.header c /*h3*/
 {
 color: white;
 position: absolute;
@@ -33,14 +33,14 @@ left: 15px;
     right: 40px;
     margin-top: 10px;
 }
-.header .sublinks a
+.header .sublinks u /*h2*/
 {
     color: white;
     position: relative;
     top: 25px;
     text-decoration: none;
 }
-.header .sublinks h4
+.header .sublinks a
 {
     color: white;
     float: left;
@@ -127,7 +127,7 @@ background-color: rgb(6,33,63);
     left: 10px;
     top: 10px;   
 }
-.bodypart .linkpart h2
+.bodypart .linkpart a /* h2 */
 {
     color: white;
 }
@@ -175,7 +175,7 @@ background-color: rgb(6,33,63);
      border-radius: 10px;
    margin-top: 5px;
  }
- .bodypart .contentpart .content h2
+ .bodypart .contentpart .content d /*h2*/
  {
      color: rgb(3,33,63);
  }
@@ -193,7 +193,7 @@ background-color: rgb(6,33,63);
     right: 10px;
     top: 10px;
  }
- .bodypart .newspart h2
+ .bodypart .newspart e /*h2*/
  {
      color: white;
  }
