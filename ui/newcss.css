@@ -93,7 +93,9 @@ font-size: 120%;
 }
 .imagebox .image:hover
 {
-    background-image: url('ui/images.jpg');
+    height: 380px;
+    width: 1320px;
+    background-image: url('/ui/images.jpg');
 }
 .bodypart
 {
