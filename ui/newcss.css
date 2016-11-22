@@ -12,19 +12,10 @@ height: auto;
  height: 100px;
  width: 1340px;
 }
-.header 
-{
- color: white;
- position: absolute;
-     left: 15px;
-}
-.header h3
-{
-color: white;
-position: absolute;
-top: 50px;    
-left: 15px;
-}
+
+
+
+
 .header .sublinks
 {
     height: 90px;
@@ -40,14 +31,10 @@ left: 15px;
     top: 25px;
     text-decoration: none;
 }
-.header .sublinks h4
-{
-    color: white;
-    float: left;
-    position: relative;
-    top: 10px;
-    left: 5px;
-}
+
+
+
+
 .header .sublinks input
 {
     float: left;
@@ -127,10 +114,10 @@ background-color: rgb(6,33,63);
     left: 10px;
     top: 10px;   
 }
-.bodypart .linkpart h2
-{
-    color: white;
-}
+
+
+
+
 .bodypart .linkpart .link
 {
    width: 380px;
@@ -175,10 +162,10 @@ background-color: rgb(6,33,63);
      border-radius: 10px;
    margin-top: 5px;
  }
- .bodypart .contentpart .content h2
- {
-     color: rgb(3,33,63);
- }
+
+
+
+
  .bodypart .contentpart .content cont
  {
   text-align: justify;
@@ -193,10 +180,11 @@ background-color: rgb(6,33,63);
     right: 10px;
     top: 10px;
  }
- .bodypart .newspart h2
- {
-     color: white;
- }
+
+
+
+
+
  .bodypart .newspart .news
  {
     width: 380px;
