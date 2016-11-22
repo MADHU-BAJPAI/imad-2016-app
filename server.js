@@ -25,20 +25,21 @@ app.listen(8080, function () {
 app.get('/ui/download.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'download.jpg'));
 });
-app.get('/ui/download (1).jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'download (1).jpg'));
+app.get('/ui/wifi.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'wifi.jpg'));
 });
-app.get('/ui/download (4)', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'download (4).jpg'));
+app.get('/ui/gmailss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'gmailss.jpg'));
 });
-app.get('/ui/download (5).jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'download (5).jpg'));
+app.get('/ui/login.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'login.jpg'));
 });
 
 app.get('/ui/biet-pic.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'biet-pic.jpg'));
 });
-app.get('/ui/portal.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'portal.jpg'));
+
+app.get('/ui/images.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'images.jpg'));
 });
 
