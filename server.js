@@ -28,7 +28,7 @@ app.get('/ui/download.jpg', function (req, res) {
 app.get('/ui/wifi.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'wifi.jpg'));
 });
-app.get('/ui/gmailss', function (req, res) {
+app.get('/ui/gmailss.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'gmailss.jpg'));
 });
 app.get('/ui/login.jpg', function (req, res) {
