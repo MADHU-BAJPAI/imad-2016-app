@@ -99,7 +99,7 @@ font-size: 120%;
 }
 .bodypart
 {
-    height: 610px;
+    height: 1110px;
     width: 1340px;
     background-color: white;
     margin-top: 10px;
@@ -200,16 +200,16 @@ background-color: rgb(6,33,63);
      padding-left: 10px;
      padding-right: 10px;
  }
- #login_area 
+  .bodypart .login_area 
  {
      height:500px;
      width:1330px;
-     background-color:rgb(8,64,138);
+     background-color:rgb(3,33,63);
      margin-top: 5px;
      border-radius: 10px;
      
  }
- #ligin_area #area 
+ .bodypart .ligin_area .area 
  {
      height:200px;
      width:1030px;
