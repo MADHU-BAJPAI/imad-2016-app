@@ -209,6 +209,12 @@ background-color: rgb(6,33,63);
      border-radius: 10px;
      
  }
+ #ligin_area #area 
+ {
+     height:200px;
+     width:1030px;
+     background-color:rgb(3,33,63);
+ }
  .footer
  {
      
