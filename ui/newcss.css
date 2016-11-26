@@ -242,6 +242,7 @@ box-shadow: 0 0 5px 5px #888;
   position:absolute;
   top:25%;
   right:10%;
+  border-radius:10px;
     -moz-box-shadow: 0 0 5px 5px #888;
 -webkit-box-shadow: 0 0 5px 5px#888;
 box-shadow: 0 0 5px 5px #888;
