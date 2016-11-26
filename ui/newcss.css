@@ -230,17 +230,15 @@ box-shadow: 0 0 5px 5px #888;
  }
  #madhu .subdiv
  {
-     height:60%;
+     height:65%;
      width:80%;
      background-color:rgb(54,53,54);
      position:absolute;
-     top:30%;
+     top:25%;
      left:10%;
  }
  #madhu .subdiv .img
  {
-     height:60%;
-     width:30%;
   position:absolute;
   top:20%;
   right:10%;
