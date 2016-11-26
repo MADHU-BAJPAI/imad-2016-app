@@ -12,9 +12,9 @@ password </br>
         </br><br/>
         
 
-        <input type="submit" id="login_btn" value="Login" style="border-radius:5px" />
+        <input type="submit" id="login_btn" value="Login" style="border-radius:7px" />
 
-        <input type="submit" id="register_btn" value="Register" style="border-radius:5px" />
+        <input type="submit" id="register_btn" value="Register" style="border-radius:7px" />
 
         `;
 
