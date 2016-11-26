@@ -181,7 +181,12 @@ app.get('/ui/login.html', function (req, res) {
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
-
+app.get('/ui/simmi.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'simmi.jpg'));
+});
+app.get('/ui/profile.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
+});
 
 function hash (input, salt) {
 
