@@ -243,3 +243,9 @@ box-shadow: 0 0 5px 5px #888;
   top:25%;
   right:10%;
  }
+.address-text {
+    padding: 0;
+}
+.address {
+    padding: 0;
+}
