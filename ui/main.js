@@ -170,7 +170,7 @@ function loadLoggedInUser (username) {
 
         <h3> Hi <i>${username}</i></h3>
 
-        <a href="/logout">Logout</a>
+        <a href="/logout" style="position:absolute;right:10px;top:10px">Logout</a>
 
     `;
 
