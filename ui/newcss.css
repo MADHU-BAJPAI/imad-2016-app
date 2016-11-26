@@ -217,5 +217,8 @@ background-color: rgb(6,33,63);
      left:20%;
   background-color:rgb(229,240,255);
   border-radius:10px;
+  -moz-box-shadow: 0 0 5px 5px #888;
+-webkit-box-shadow: 0 0 5px 5px#888;
+box-shadow: 0 0 5px 5px #888;
   
  }
