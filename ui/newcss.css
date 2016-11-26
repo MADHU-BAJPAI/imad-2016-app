@@ -211,8 +211,8 @@ background-color: rgb(6,33,63);
  #login_area
  {
      position:relative;
-     width:50%;
-     top:10%;
+     width:60%;
+     top:20%;
      left:10%;
-  background-color:rgb(200,224,255);
+  background-color:rgb(229,240,255);
  }
