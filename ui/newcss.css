@@ -255,5 +255,7 @@ box-shadow: 0 0 5px 5px #888;
 }
  #articles
 {
-    background-color:pink;
+    position:absolute;
+    top:50px;
+    right:40px;
 }
