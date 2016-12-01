@@ -69,7 +69,8 @@ font-size: 120%;
     height: 50px;
     width: 1340px;
     margin-top: 10px;
-    
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 .imagebox
 {
