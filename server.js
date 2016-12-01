@@ -211,6 +211,14 @@ app.get('/ui/Complete Syllabus Of CE Department.pdf', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Complete Syllabus Of CE Department.pdf'));
 
 });
+app.get('/ui/Complete Syllabus Of CH Department.pdf', function (req, res) {
+
+  res.sendFile(path.join(__dirname, 'ui', 'Complete Syllabus Of CH Department.pdf'));
+
+});
+
+
+
 function hash (input, salt) {
 
     // How do we create a hash?
