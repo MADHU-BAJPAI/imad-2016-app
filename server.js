@@ -191,7 +191,9 @@ app.get('/ui/profile.html', function (req, res) {
 app.get('/ui/article-one.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
-
+app.get('/ui/contact.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
+});
 function hash (input, salt) {
 
     // How do we create a hash?
