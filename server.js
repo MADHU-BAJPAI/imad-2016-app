@@ -197,7 +197,9 @@ app.get('/ui/contact.html', function (req, res) {
 app.get('/ui/academics.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'academics.html'));
 });
-
+app.get('/ui/courses.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'courses.html'));
+});
 
 function hash (input, salt) {
 
