@@ -200,6 +200,10 @@ app.get('/ui/academics.html', function (req, res) {
 app.get('/ui/courses.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'courses.html'));
 });
+app.get('/ui/placement.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'placement.html'));
+});
+
 
 function hash (input, salt) {
 
