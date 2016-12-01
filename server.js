@@ -228,6 +228,25 @@ app.get('/ui/ECE.pdf', function (req, res) {
 app.get('/ui/ME.pdf', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'ME.pdf'));
 });
+app.get('/ui/1.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '1.jpg'));
+});
+app.get('/ui/2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '2.jpg'));
+});
+app.get('/ui/3.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '3.jpg'));
+});
+app.get('/ui/4.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '4.jpg'));
+});
+app.get('/ui/5.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '5.jpg'));
+});
+app.get('/ui/6.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '6.jpg'));
+});
+
 function hash (input, salt) {
 
     // How do we create a hash?
