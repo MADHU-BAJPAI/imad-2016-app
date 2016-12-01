@@ -203,8 +203,14 @@ app.get('/ui/courses.html', function (req, res) {
 app.get('/ui/placement.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'placement.html'));
 });
+app.get('/ui/syllabus.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'syllabus.html'));
+});
+app.get('/ui/Complete Syllabus Of CE Department.pdf', function (req, res) {
 
+  res.sendFile(path.join(__dirname, 'ui', 'Complete Syllabus Of CE Department.pdf'));
 
+});
 function hash (input, salt) {
 
     // How do we create a hash?
