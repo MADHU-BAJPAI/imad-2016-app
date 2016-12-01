@@ -246,6 +246,9 @@ app.get('/ui/5.jpg', function (req, res) {
 app.get('/ui/6.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '6.jpg'));
 });
+app.get('/ui/gallery.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'gallery.html'));
+});
 
 function hash (input, salt) {
 
